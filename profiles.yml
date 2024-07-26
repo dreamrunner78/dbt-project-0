@@ -1,0 +1,12 @@
+myproject:
+ target: dev
+ outputs:
+   dev:
+     type: postgres
+     threads: 1
+     host: localhost
+     port: 5432
+     user: dcp
+     pass: dcp
+     dbname: dcp
+     schema: public

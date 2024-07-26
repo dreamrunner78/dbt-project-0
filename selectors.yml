@@ -1,0 +1,8 @@
+selectors:
+  - name: my_selector
+    definition:
+      union:
+        - method: tag
+          value: my_tag
+        #- method: path
+        #  value: models/my_model_path

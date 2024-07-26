@@ -1,0 +1,16 @@
+version: 2
+
+sources:
+  - name: source
+    description: A clone of a Postgres application database.
+    #database: dcp
+    schema: source
+    tables:
+      - name: users
+        description: Raw customers data.
+        columns:
+          - name: id
+            description: Primary key for customers.
+            tests:
+              - unique
+              - not_null
